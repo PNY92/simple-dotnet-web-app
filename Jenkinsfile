@@ -32,7 +32,7 @@ pipeline {
         }
         stage('Run') {
             steps {
-                sh 'dotnet run'
+                sh 'dotnet run SimpleWebApi'
             }
         }
     }

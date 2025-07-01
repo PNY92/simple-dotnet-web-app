@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools {
+        dotnetsdk
+    }
     stages {
         stage('Build') { 
             steps {

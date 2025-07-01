@@ -30,5 +30,10 @@ pipeline {
                 }
             }
         }
+        stage('Run') {
+            steps {
+                sh 'dotnet run'
+            }
+        }
     }
 }
